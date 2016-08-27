@@ -9,7 +9,7 @@ RUN chmod 755 /dockup/*.sh
 ENV S3_BUCKET_NAME docker-backups.example.com
 ENV AWS_ACCESS_KEY_ID **DefineMe**
 ENV AWS_SECRET_ACCESS_KEY **DefineMe**
-ENV AWS_DEFAULT_REGION us-east-1
+ENV AWS_DEFAULT_REGION ap-south-1
 ENV PATHS_TO_BACKUP auto
 ENV BACKUP_NAME backup
 ENV RESTORE false
